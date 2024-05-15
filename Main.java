@@ -46,7 +46,7 @@ class Date {
             this.phone = phone;
             this.joinDate = joinDate;
         }
-        void display(){
+        void display() {
             System.out.printf("%-19s %-20s %-20s %-20s %-20s %-20s %-20s %-20s %-20s %-20s\n",
                     "Member ID: " + memberID,
                     "Last Name: " + lastName,
@@ -57,8 +57,8 @@ class Date {
                     "Member Type: " + memberType,
                     "Coach: " + coach,
                     "Phone: " + phone,
-                    "Join Date: " + joinDate.getDay() + "-" + joinDate.getMonth() + "-" + String.valueOf(joinDate.getYear()).substring(2)
-            );
+                    "Join Date: " + joinDate.getDay() + "-" + joinDate.getMonth() + "-"
+                            + String.valueOf(joinDate.getYear()).substring(2));
         }
     
     
