@@ -33,7 +33,8 @@ class Date {
         private long phone;
         private Date joinDate;
     
-        Member(int memberID, String lastName, String firstName, int handicap, char gender, String team, String memberType,int coach, long phone, Date joinDate) {
+         Member(int memberID, String lastName, String firstName, int handicap, char gender, String team,
+                String memberType, int coach, long phone, Date joinDate) {
             this.memberID = memberID;
             this.lastName = lastName;
             this.firstName = firstName;
